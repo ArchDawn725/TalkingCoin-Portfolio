@@ -4,6 +4,8 @@
 
 Experimental AI-Driven Trading Simulation • LLM + TTS Integration Prototype
 
+Steam Page: https://store.steampowered.com/app/3247860/Talking_Coin/
+
 **⭐ Project Overview**
 
 Talking Coin was an ambitious experiment designed to push the limits of real-time interaction between players and AI-driven NPCs. This project emerged during the global surge of interest in LLMs and AI voice technologies, with the goal of creating a game where the player converses naturally with characters that respond intelligently, emotionally, and immediately within the Unity engine.
