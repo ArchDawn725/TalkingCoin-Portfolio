@@ -22,9 +22,9 @@ Talking Coin was an ambitious experiment designed to push the limits of real-tim
 
 -A lightweight IK-driven animated medieval world
 
-The result was a uniquely immersive experience in which NPCs felt alive, emotional, reactive, and fully conversational. It quickly became one of your most popular convention demos, especially the “Alien Judge” showcase used at public events.
+*The result was a uniquely immersive experience in which NPCs felt alive, emotional, reactive, and fully conversational. It quickly became one of your most popular convention demos, especially the “Alien Judge” showcase used at public events.*
 
-Although the game progressed well, deeper production revealed the limitations of LLM reliability for high-complexity gameplay (summaries, multi-step decisions, long-term memory tracking). Development was paused until future LLM advancements allow the full vision to be realized.
+*Although the game progressed well, deeper production revealed the limitations of LLM reliability for high-complexity gameplay (summaries, multi-step decisions, long-term memory tracking). Development was paused until future LLM advancements allow the full vision to be realized.*
 
 # **🎮 Gameplay Summary**
 
