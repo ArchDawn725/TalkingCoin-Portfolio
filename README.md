@@ -1,213 +1,212 @@
-# TalkingCoin-Portfolio
-
-**Talking Coin (2024)**
+# **Talking Coin (2024)**
 
 Experimental AI-Driven Trading Simulation • LLM + TTS Integration Prototype
 
-Steam Page: https://store.steampowered.com/app/3247860/Talking_Coin/
+*Steam Page:* https://store.steampowered.com/app/3247860/Talking_Coin/
 
-**⭐ Project Overview**
+*Youtube videos:* https://www.youtube.com/@ArchDawnDev/shorts
+
+# **⭐ Project Overview**
 
 Talking Coin was an ambitious experiment designed to push the limits of real-time interaction between players and AI-driven NPCs. This project emerged during the global surge of interest in LLMs and AI voice technologies, with the goal of creating a game where the player converses naturally with characters that respond intelligently, emotionally, and immediately within the Unity engine.
 
-Building on two earlier prototypes, Talking Coin combined:
+## Building on two earlier prototypes, Talking Coin combined:
 
-OpenAI’s ChatGPT API (LLM + dialog decision logic)
+-OpenAI’s ChatGPT API (LLM + dialog decision logic)
 
-ElevenLabs Speech-to-Text API (highly accurate, expressive voice recognition)
+-ElevenLabs Speech-to-Text API (highly accurate, expressive voice recognition)
 
-Unity-based TTS/STT glue systems
+-Unity-based TTS/STT glue systems
 
-Custom LLM instruction pipelines for mood, emotion, memory, and logic
+-Custom LLM instruction pipelines for mood, emotion, memory, and logic
 
-A lightweight IK-driven animated medieval world
+-A lightweight IK-driven animated medieval world
 
 The result was a uniquely immersive experience in which NPCs felt alive, emotional, reactive, and fully conversational. It quickly became one of your most popular convention demos, especially the “Alien Judge” showcase used at public events.
 
 Although the game progressed well, deeper production revealed the limitations of LLM reliability for high-complexity gameplay (summaries, multi-step decisions, long-term memory tracking). Development was paused until future LLM advancements allow the full vision to be realized.
 
-**🎮 Gameplay Summary**
+# **🎮 Gameplay Summary**
 
-Talking Coin featured a real-time medieval trading simulation, where the entire game loop was driven by live conversation:
+### Talking Coin featured a real-time medieval trading simulation, where the entire game loop was driven by live conversation:
 
 *World & Structure*
 
-The player wakes at sunrise in a medieval roadside marketplace, standing at a small vendor stall.
-The only interactions available are:
+The player wakes at sunrise in a medieval roadside marketplace, standing at a small vendor stall. 
 
-Look around to choose whom you speak to (highlighted by a custom shader)
+### The only interactions available are:
 
-Hold Spacebar to talk (microphone input via STT)
+-Look around to choose whom you speak to (highlighted by a custom shader)
 
-Type manually if preferred
+-Hold Spacebar to talk (microphone input via STT)
 
-*AI-Driven Trading Loop*
+-Type manually if preferred
 
-A merchant approaches your stand
+### AI-Driven Trading Loop
 
-Negotiations begin through real speech
+-A merchant approaches your stand
 
-The AI dynamically:
+-Negotiations begin through real speech
 
-Interprets tone, intent, and bargaining
+### The AI dynamically:
 
-Tracks mood and trust levels
+-Interprets tone, intent, and bargaining
 
-Evaluates whether the deal benefits them
+-Tracks mood and trust levels
 
-Acts out animations based on emotional state
+-Evaluates whether the deal benefits them
 
-If a deal is reached:
+-Acts out animations based on emotional state
 
-Merchant picks items from his cart
+### If a deal is reached:
 
-Uses IK animations to place them on your stall
+-Merchant picks items from his cart
 
-Takes payment
+-Uses IK animations to place them on your stall
 
-A new customer approaches
+-Takes payment
 
-The cycle continues until:
+-A new customer approaches
 
-You run out of items
+### The cycle continues until:
 
-You’ve seen enough customers for the day
+-You run out of items
 
-The in-game time system transitions to the next day
+-You’ve seen enough customers for the day
 
-*Crime & Consequences System*
+-The in-game time system transitions to the next day
 
-If the player threatens any NPC:
+## *Crime & Consequences System*
 
-The NPC flees
+### If the player threatens any NPC:
 
-A guard arrives and receives a conversation summary from the LLM
+-The NPC flees
 
-The guard questions the player
+-A guard arrives and receives a conversation summary from the LLM
 
-The guard decides if:
+-The guard questions the player
 
-The case is dismissed
+### The guard decides if:
 
-The player is taken to court
+-The case is dismissed
 
-If taken to court:
+-The player is taken to court
+
+### If taken to court:
 
 The Queen presides over a trial
 
-Based on LLM interpretation, she may:
+### Based on LLM interpretation, she may:
 
-Execute the player
+-Execute the player
 
-Impose a fine
+-Impose a fine
 
-Declare innocence
+-Declare innocence
 
 This system demonstrated impressive LLM-driven branching state logic, integrated into world interactions.
 
-*Side Stories*
+## *Side Stories*
 
-One prototype included a murder investigation where:
+### One prototype included a murder investigation where:
 
-One villager is secretly a murderer
+-One villager is secretly a murderer
 
-Each NPC may provide true, false, or partial information
+-Each NPC may provide true, false, or partial information
 
-The player can accuse someone by calling the guards
+-The player can accuse someone by calling the guards
 
-A wrong accusation leads to trial and consequences
+-A wrong accusation leads to trial and consequences
 
-**🧩 Key Features**
+# **🧩 Key Features**
 
-Full AI-driven conversation system using OpenAI ChatGPT
+-Full AI-driven conversation system using OpenAI ChatGPT
 
-Natural language bargaining and emotional modeling
+-Natural language bargaining and emotional modeling
 
-High-quality STT via ElevenLabs
+-High-quality STT via ElevenLabs
 
-Real-time IK character animation
+-Real-time IK character animation
 
-Procedural emotional states affecting tone, animations, and logic
+-Procedural emotional states affecting tone, animations, and logic
 
-NPCs with personalities, money values, goals, and memory
+-NPCs with personalities, money values, goals, and memory
 
-Guard/Queen judicial system based entirely on LLM summaries
+-Guard/Queen judicial system based entirely on LLM summaries
 
-Dynamic day/night cycle
+-Dynamic day/night cycle
 
-Minimal UI for VR compatibility
+-Minimal UI for VR compatibility
 
-Side-story logic driven completely by LLM-derived clues
+-Side-story logic driven completely by LLM-derived clues
 
-Unity NavMesh pathfinding for medieval villagers
+-Unity NavMesh pathfinding for medieval villagers
 
-Prototype designed for VR expansion
+-Prototype designed for VR expansion
 
-**🏗️ Architecture Overview**
+# **🏗️ Architecture Overview**
 
-Talking Coin represents one of your most advanced coding stages before your 2025 breakthroughs. It marked the transition to fully modular systems with strict bans on god scripts.
+*Talking Coin represents one of my most advanced coding stages before my 2025 breakthroughs. It marked the transition to fully modular systems with strict bans on god scripts.*
 
-*Architectural Advancements*
+## *Architectural Advancements*
 
-Extensive use of interfaces, abstract classes, and LLM instruction objects
+-Extensive use of interfaces, abstract classes, and LLM instruction objects
 
-Rich data pipelines to translate:
+-Rich data pipelines to translate:
 
-Player speech → STT → LLM context → game state
+-Player speech → STT → LLM context → game state
 
-Modular AI emotion/state controllers
+-Modular AI emotion/state controllers
 
-Clean, separated logic for:
+### Clean, separated logic for:
 
-Conversation handling
+-Conversation handling
 
-Personality traits
+-Personality traits
 
-Deal-making evaluation
+-Deal-making evaluation
 
-Legal system interactions
+-Legal system interactions
 
-Item trading logic
+-Item trading logic
 
-Modular animation layers for IK + baked movements
+-Modular animation layers for IK + baked movements
 
-**LLM Control System**
+## **LLM Control System**
 
-NPC personalities were driven by a set of embedded variables:
+### NPC personalities were driven by a set of embedded variables:
 
-Trust level
+-Trust level
 
-Anger level
+-Anger level
 
-Interest level
+-Interest level
 
-Conversation clarity
+-Conversation clarity
 
-Memory of past statements
+-Memory of past statements
 
-Conversation length/timeouts
+-Conversation length/timeouts
 
 This allowed the LLM to behave convincingly during extended conversations.
 
-**Why Production Paused**
+## **Why Production Paused**
 
-As the complexity increased, LLM reliability began to fail in areas such as:
+### As the complexity increased, LLM reliability began to fail in areas such as:
 
-Multi-step reasoning
+-Multi-step reasoning
 
-Consistent memory summarization
+-Consistent memory summarization
 
-Following branching logic
+-Following branching logic
 
-Keeping internal variables stable
+-Keeping internal variables stable
 
 The project remains on hold awaiting more robust future AI/LLM consistency.
 
-**🗂️ Key Scripts to Review**
+# **🗂️ Key Scripts to Review**
 
-(Filenames can be mapped after uploading your repo.)
-
-*Core*
+### *Core*
 
 LLMConversationController
 
@@ -223,7 +222,7 @@ CrimeAndLegalSystem
 
 GameLoopController
 
-*Systems*
+### *Systems*
 
 MerchantSystem
 
@@ -237,7 +236,7 @@ ItemTradeSystem
 
 PlayerSpeechRouting
 
-*AI*
+### *AI*
 
 NPCStateMachineBase
 
@@ -247,7 +246,7 @@ MemoryTracker
 
 ConversationSummarizer
 
-*Animation*
+### *Animation*
 
 IKHandController
 
@@ -255,7 +254,7 @@ GazeTrackingSystem
 
 ItemPickupAnimationHandler
 
-*Utilities*
+### *Utilities*
 
 ChatGPTRequestBuilder
 
@@ -263,90 +262,88 @@ ConversationHistoryCompressor
 
 STTConfidenceInterpreter
 
-**🧪 Development Notes**
+# **🧪 Development Notes**
 *Convention Demo Success*
-The “Alien Judge” version of Talking Coin became your most crowd-pleasing live demo to date:
+### The “Alien Judge” version of Talking Coin became my most crowd-pleasing live demo to date:
 
-Large crowds gathered around the booth
+-Large crowds gathered around the booth
 
-People lined up to speak with the alien
+-People lined up to speak with the alien
 
-The character’s personality, humor, and animations created memorable experiences
+-The character’s personality, humor, and animations created memorable experiences
 
-*Coding Milestones*
+### *Coding Milestones*
 
-This project marked the first time you:
+**This project marked the first time I:**
 
-Fully banned god scripts
+-Fully banned god scripts
 
-Embraced interfaces + abstract base classes
+-Embraced interfaces + abstract base classes
 
-Designed modular emotional models
+-Designed modular emotional models
 
-Integrated multiple real-world APIs into Unity
+-Integrated multiple real-world APIs into Unity
 
-Created a fully speech-driven gameplay loop
+-Created a fully speech-driven gameplay loop
 
-*Animation & Immersion*
+### *Animation & Immersion*
 
-NPCs make eye contact
+-NPCs make eye contact
 
-Look at objects they pick up
+-Look at objects they pick up
 
-React to threats, kindness, or bargains
+-React to threats, kindness, or bargains
 
-Use blended IK + baked animations
+-Use blended IK + baked animations
 
 This helped sell the illusion of a living world.
 
-**🚧 Why This Project Matters**
+# **🚧 Why This Project Matters**
 
-Talking Coin demonstrates:
+### Talking Coin demonstrates:
 
-Your ability to integrate advanced AI technologies into gameplay
+-My ability to integrate advanced AI technologies into gameplay
 
-Skill in designing LLM-driven systems with emotional and logical behavior
+-Skill in designing LLM-driven systems with emotional and logical behavior
 
-Complex narrative branching without traditional scripting
+-Complex narrative branching without traditional scripting
 
-Strong engineering adaptability in emerging tech
+-Strong engineering adaptability in emerging tech
 
-Clean architectural evolution
+-Clean architectural evolution
 
-Your capacity to wow players in public events
+-My capacity to wow players in public events
 
-Your pioneering approach to real-time conversational gameplay
+-My pioneering approach to real-time conversational gameplay
 
-It stands as one of your most unique, experimental, and technically forward-looking prototypes.
+It stands as one of my most unique, experimental, and technically forward-looking prototypes.
 
-**📚 Lessons Learned**
+# **📚 Lessons Learned**
 
-LLMs struggle with multi-step decisions under long sessions
+-LLMs struggle with multi-step decisions under long sessions
 
-Speech-driven gameplay requires strict guardrails and reinforcement
+-Speech-driven gameplay requires strict guardrails and reinforcement
 
-Emotional modeling improves believability dramatically
+-Emotional modeling improves believability dramatically
 
-Clear separation between STT/LLM/Gameplay is crucial
+-Clear separation between STT/LLM/Gameplay is crucial
 
-Summary-based memory systems must be resilient
+-Summary-based memory systems must be resilient
 
-LLMs can create deeply immersive experiences but need stability for full games
+-LLMs can create deeply immersive experiences but need stability for full games
 
-IK + emotional cues dramatically increase perceived AI intelligence
+-IK + emotional cues dramatically increase perceived AI intelligence
 
-**🛠️ Tech Stack**
+# **🛠️ Tech Stack**
 
-Unity 2022.x
+-Unity 2022.x
 
-C#
+-C#
 
-OpenAI ChatGPT APIs (GPT-3.5 / GPT-4 depending on version)
+-OpenAI ChatGPT APIs (GPT-4o mini)
 
-ElevenLabs Speech-to-Text
+-ElevenLabs Speech-to-Text
 
-Unity NavMesh AI
+-Unity NavMesh AI
 
-IK Rig systems
-
-JSON data-driven mood & personality templates
+-IK Rig systems
