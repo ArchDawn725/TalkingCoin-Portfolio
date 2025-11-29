@@ -336,7 +336,7 @@ It stands as one of my most unique, experimental, and technically forward-lookin
 
 # **🛠️ Tech Stack**
 
--Unity 2022.x
+-Unity 2022.3
 
 -C#
 
