@@ -206,61 +206,47 @@ The project remains on hold awaiting more robust future AI/LLM consistency.
 
 # **🗂️ Key Scripts to Review**
 
-### *Core*
+## *Core*
 
-LLMConversationController
+*LLMController.cs*
 
-STTInputManager
+*TTSCon.cs*
 
-AudioResponseSystem
+*STTCon.cs*
 
-NPCEmotionStateController
+## *Systems*
 
-NPCTradeLogic
+*CharacterManager.cs*
 
-CrimeAndLegalSystem
+*TradingScene.cs*
 
-GameLoopController
+*InventoryCon.cs*
 
-### *Systems*
+*PlayerLookingAt.cs*
 
-MerchantSystem
+## *AI*
 
-VillagerPersonalitySystem
+*GPTTrader.cs*
 
-GuardInquirySystem
+*GPTGuard.cs*
 
-QueenTrialSystem
+*GPTJudge.cs*
 
-ItemTradeSystem
+## *Animation*
 
-PlayerSpeechRouting
+*CharacterIKController.cs*
 
-### *AI*
+*CharacterAnimationController.cs*
 
-NPCStateMachineBase
+*CharacterLookController.cs*
 
-EmotionModel
+*CharacterBodyController.cs*
 
-MemoryTracker
+*CharacterMovementController.cs*
 
-ConversationSummarizer
+## *Utilities*
 
-### *Animation*
-
-IKHandController
-
-GazeTrackingSystem
-
-ItemPickupAnimationHandler
-
-### *Utilities*
-
-ChatGPTRequestBuilder
-
-ConversationHistoryCompressor
-
-STTConfidenceInterpreter
+*Item.cs*
 
 # **🧪 Development Notes**
 *Convention Demo Success*
